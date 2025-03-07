@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Melo | Portfolio </title>
+  <meta name="description"
+    content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo.svg" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1>Desenvolvimento Front-end</h1>
+      <p>Gabriel Melo, São Paulo - SP, Desenvolvedor Front-end.</p>
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/GMelloXp" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/gabrielmelo94/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/gabrielmelo94/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>
+      </a>
+    </div>
+
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/React.svg" alt="Logo React">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Javascript.svg" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Git.svg" alt="Logo Git">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Sass.svg" alt="Logo SASS">
+      </li>
+
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/stock-control.png" alt="capa stock control">
+        <div class="card__body">
+          <h3 class="card__title">Stock control</h3>
+          <p class="card__description">Aplicação de controle de estoque</p>
+          <ul class="card__list">
+            <li class="card__item">Adição de produtos;</li>
+            <li class="card__item">Alterações nos produtos (quantidade, preço, categoria);</li>
+            <li class="card__item">Excluir produtos.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/React.svg" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Javascript.svg" alt="Logo JavaScript">
+            </li>
+
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://controledeestoquereact.netlify.app/" target="_blank"><span>Prévia</span></a>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+            <button class="btn">
+              <a href="https://github.com/GMelloXp/Controle-de-estoque.git" target="_blank"><span>Repositório</span></a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/mundoinvertido-front.png" alt="Capa mundo invertido">
+        <div class="card__body">
+          <h3 class="card__title">Biblioteca de jogos</h3>
+          <p class="card__description">Site sobre a série Stranger Things</p>
+          <ul class="card__list">
+            <li class="card__item">Site interativo com mudança de tema;</li>
+            <li class="card__item">Teaser da quinta temporada;</li>
+            <li class="card__item">Galeria de fotos da série.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/React.svg" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Javascript.svg" alt="Logo JavaScript">
+            </li>
+
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+             <a href="https://projetostrangerthins5atemporada.netlify.app/" target="_blank"><span>Prévia</span></a> 
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+            <button class="btn">
+              <a href="https://github.com/GMelloXp/projeto-mundo-invertido.git" target="_blank"><span>Repositório</span></a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/onebitx.png" alt="Capa onebitx">
+        <div class="card__body">
+          <h3 class="card__title">OneBitX</h3>
+          <p class="card__description">Aplicação inspirada no site da SpaceX.</p>
+          <ul class="card__list">
+            <li class="card__item">Site responsivo;</li>
+            <li class="card__item">Aplicação dos conceitos básicos do desenvolvimento front-end;</li>
+            <li class="card__item">Aplicação que simula o site oficial da empresa SpaceX.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html.svg" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo Css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Javascript.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Sass.svg" alt="Logo SASS">
+            </li>
+               </ul>
+              <div class="card__buttons">
+                <button class="btn btn--primary">
+                 <a href="https://projetoonebitx.netlify.app/" target="_blank"><span>Prévia</span></a> 
+                  <i class="bi bi-arrow-up-right"></i>
+                </button>
+                <button class="btn">
+                  <a href="https://github.com/GMelloXp/projetofinalonebitx.git" target="_blank"><span>Repositório</span></a>
+                </button>
+              </div>
+        </div>
+      </div>
+      <a href="https://github.com/GMelloXp" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/foto-perfil.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p><strong>Olá, eu sou Gabriel!</strong>. Formado em Licenciatura em Matemática pelo IFCE e Tecnólogo em Análise
+          e Desenvolvimento de Sistemas pela UnicSul, sou apaixonado por transformar ideias em experiências incríveis.
+          Meu foco está no desenvolvimento frontend, com domínio em JavaScript e o framework React.
+          Acredito que um código limpo e uma interface bem pensada podem fazer toda a diferença na experiência do
+          usuário. Quando não estou codando, gosto de explorar novas tecnologias, tocar violão e encontrar inspiração em
+          lugares e experiências diferentes.
+          Se você procura alguém comprometido, criativo e sempre em busca de aprimorar suas habilidades, está no lugar
+          certo. Vamos construir algo incrível juntos?
+        </p>
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Básico | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/gabrielmelo94/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e desenvolvimento de sistemas</h4>
+          <span>2019 - 2022</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Cruzeiro do Sul</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Graduação - Tecnólogo</span>
+          </div>
+          <h4>Licenciatura em Matemática</h4>
+          <span>2013 - 2017</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>IFCE</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Graduação - Licenciatura</span>
+          </div>
+
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Controlador de acessos</h4>
+          <span>Condomínio Edifício Maria José. Nov 2018 - Atualmente</span>
+          <hr>
+          <h4>Professor (Matemática e Física)</h4>
+          <span>Colégio Vitória - Jan 2018 - Jun 2018</span>
+
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos Extras</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Out 2024. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e
+                clonagem
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar
+                alterações
+                com o repositório remoto.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Formação Fullstack Js</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                OneBitCode
+              </p>
+              <p>
+                Formação voltada para aprendizagem desde o básico do front-end com HTML, CSS e JavaScript com foco em React.js e back-end com foco em Node.js, com desenvolvimento de projetos práticos.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>React Fundamentos</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Plataforma Dev Samurai
+              </p>
+              <p>
+                Conceitos básicos de React Js, com exercícios e realização de projeto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para contribuir da melhor forma possível. Estou animado para colaborar em projetos criativos e agregar valor ao seu time! Se você procura alguém motivado, focado em aprender e entregar resultados, entre em contato comigo pelo e-mail ou através de minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/GMelloXp" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/gabrielmelo94/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+     
+    </ul>
+    <a href="mailto:gabrieljuca94@outlook.com">
+      <button class="btn btn--primary">
+        <span class="email">gabrieljuca94@outlook.com</span>
+      </button>
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Portfólio desenvolvido para fins educativos/comerciais no Lab "Construindo seu Portfolio Front-end do Zero" da
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>. 
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
